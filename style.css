@@ -1,96 +1,71 @@
 body {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   margin: auto;
+  width: 85%;
+  max-width: 1000px;
 }
 
 nav {
+  height: 100px;
+  background-color: #aae6d9;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.6em 0 2.7em;
-  background-color: #aae6d9;
-  height: 5.5em;
-  width: 85%;
-  margin: auto;
+  padding: 0 5% 0 5%;
+  margin-bottom: 50px;
 }
 
 h1 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
-h4 {
-  font-size: 0.85rem;
+  font-size: 40px;
 }
 
 nav img {
-  height: 6.6em;
-  width: 6.6em;
-  border-radius: 6.6em;
-  align-self: baseline;
-  margin-top: 12px;
+  margin-top: 60px;
+  height: 135%;
+  border-radius: 100%;
 }
 
-aside {
-  margin-top: 50px;
+#content {
   display: flex;
-  flex-direction: column;
-  width: 33%;
-  margin-left: 3%;
-  border-right: solid rgba(88, 88, 88, 0.524) 2px;
-  float: left;
+  justify-content: center;
 }
 
-#contact, #skills {
-    border-bottom:solid rgba(88, 88, 88, 0.524) 2px;
+a {
+  text-decoration: none;
 }
 
+#left {
+  width: 30%;
+}
 
-@media screen and (max-width: 730px) {
+#right {
+  border-left: solid gray 2px;
+  width: 60%;
+}
+
+#contact,
+#skills,
+#profile {
+  border-bottom: solid gray 2px;
+}
+
+#right .section {
+  padding-left: 20px;
+}
+#left .section {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
   body {
-    font-size: 12px;
-    margin: auto;
+    width: 100%;
   }
 
-  nav {
-    height: 5em;
-    padding: 0 5% 0 5%;
-    width: auto;
+  #left {
+    width: 35%;
   }
 
-  h1 {
-    font-size: 1.5em;
-  }
-
-  nav img {
-    height: 5.8em;
-    width: 5.8em;
-    border-radius: 5.8em;
-  }
-
-  aside {
-    width: 33%;
-    min-width: 175px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    font-size: 24px;
-    width: 70%;
-    margin: auto;
-  }
-
-  nav {
-    width: 50em;
-  }
-
-  nav img {
-    max-height: 150px;
-    max-width: 150px;
+  #right {
+    width: 65%;
   }
 }
