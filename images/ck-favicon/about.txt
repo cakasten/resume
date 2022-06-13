@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Kodchasan
-- Font Author: Copyright 2018 The Kodchasan Project Authors (https://github.com/cadsondemak/Kodchasan)
-- Font Source: http://fonts.gstatic.com/s/kodchasan/v16/1cXxaUPOAJv9sG4I-DJmj3uEicG01A.ttf
+- Font Title: Asap
+- Font Author: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+- Font Source: http://fonts.gstatic.com/s/asap/v22/KFO9CniXp96a4Tc2EZzSuDAoKsE61qhOUX-8AEEe.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
