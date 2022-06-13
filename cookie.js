@@ -1,0 +1,1 @@
+document.cookie ='count=1';
