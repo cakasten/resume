@@ -91,13 +91,16 @@ a {
     display: none;
   }
 
-  #contact {
-    display: none;
+  #content {
+    flex-direction: column-reverse;
+    align-items: center;
   }
   #left {
-    width: 45%;
+    width: 95%;
   }
   #right {
-    width: 55%;
+    width: 95%;
+    border-left: none;
+    border-bottom: solid gray 2px;
   }
 }
