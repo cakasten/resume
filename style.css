@@ -30,6 +30,10 @@ nav img {
   justify-content: center;
 }
 
+.smallScreen {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -54,6 +58,10 @@ a {
 }
 #left .section {
   padding-left: 10px;
+}
+
+footer {
+  display: none;
 }
 
 @media screen and (max-width: 830px) {
@@ -82,25 +90,83 @@ a {
 }
 
 @media screen and (max-width: 490px) {
-  
-  h1 {
-    font-size: 30px;
+  nav {
+    height: 40px;
+    margin-bottom: 20px;
   }
-  
+
+  #dropdown {
+    display: block;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    background-image: url(./images/menuIcon.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image-
+
+  }
+
+  #dropdown li {
+    list-style-type: none;
+  }
+
+  nav img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
   #visitCounter {
     display: none;
+  }
+
+  #profilePhoto {
+    display: block;
+    height: 150px;
+    border-radius: 15px;
   }
 
   #content {
     flex-direction: column-reverse;
     align-items: center;
   }
-  #left {
-    width: 95%;
-  }
   #right {
     width: 95%;
     border-left: none;
-    border-bottom: solid gray 2px;
+    border-bottom: solid gray 5px;
+    margin-bottom: 20px;
+  }
+  #left {
+    width: 95%;
+  }
+
+  #contact {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    height: 75px;
+    background-color: #aae6d9;
+    font-size: 14px;
+  }
+
+  footer address {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+
+  footer a {
+    color: black;
   }
 }
