@@ -71,3 +71,33 @@ a {
     flex-shrink: 1;
   }
 }
+
+@media screen and (max-width: 720px) {
+  #left {
+    width: 45%;
+  }
+  #right {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  #visitCounter {
+    display: none;
+  }
+
+  #contact {
+    display: none;
+  }
+  #left {
+    width: 45%;
+  }
+  #right {
+    width: 55%;
+  }
+}
