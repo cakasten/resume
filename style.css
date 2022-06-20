@@ -19,7 +19,7 @@ h1 {
   font-size: 40px;
 }
 
-nav img {
+#nav-profile {
   margin-top: 60px;
   height: 135%;
   border-radius: 100%;
@@ -70,12 +70,10 @@ footer {
   }
 
   #left {
-    /* width: 40%; */
     flex-shrink: 2;
   }
 
   #right {
-    /* width: 60%; */
     flex-shrink: 1;
   }
 }
@@ -91,37 +89,26 @@ footer {
 
 @media screen and (max-width: 490px) {
   nav {
-    height: 40px;
+    height: 50px;
     margin-bottom: 20px;
   }
 
   #dropdown {
-    display: block;
-    height: 25px;
-    width: 25px;
-    overflow: hidden;
-    background-image: url(./images/menuIcon.png);
-    background-size: 17px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image-
-
+    display: flex;
+    align-items: center;
+    width: 55px;
   }
 
   #dropdown li {
     list-style-type: none;
   }
 
-  nav img {
+  #nav-profile {
     display: none;
   }
 
   h1 {
     font-size: 25px;
-  }
-
-  #visitCounter {
-    display: none;
   }
 
   #profilePhoto {
@@ -153,8 +140,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    align-content: flex-end;
-    height: 75px;
+    align-content: center;
+    height: 50px;
     background-color: #aae6d9;
     font-size: 14px;
   }
@@ -163,7 +150,6 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 15px;
   }
 
   footer a {

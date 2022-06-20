@@ -24,4 +24,5 @@ let visits = document.getElementById("counter");
 
 visits.innerHTML = parseInt(cookies.count) + 1 || 1;
 
-console.log(visits.innerHTML);
+
+
